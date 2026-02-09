@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "uipath": {
+      "command": "node",
+      "args": ["/absolute/path/to/uipath-mcp-server/dist/index.js"],
+      "env": {
+        "UIPATH_URL": "https://cloud.uipath.com/your-org/your-tenant",
+        "UIPATH_CLIENT_ID": "your-client-id",
+        "UIPATH_CLIENT_SECRET": "your-client-secret",
+        "UIPATH_TENANT_NAME": "Default",
+        "UIPATH_FOLDER_ID": "123"
+      }
+    }
+  }
+}
